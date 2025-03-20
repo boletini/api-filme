@@ -8,6 +8,22 @@
     <title>TvMaze</title>
 </head>
 <body>
-
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./img/logo.tvMaze.png" alt="TVMaze">
+                <span>TVMaze</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search for a movie or TV show genre">
+                <button onclick="searchMovies()">
+                    🔍
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="movies-grid" id="moviesGrid"></div>
+        </main>
+    </div>
 </body>
 </html>
