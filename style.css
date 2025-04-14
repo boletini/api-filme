@@ -18,9 +18,16 @@ body {
     font-size: 16px;
     
   }
+  input#consulta{
+    border-radius: 15px;
+    border-color:#550202;
+
+  }
 
  
   button {
+    border-radius: 15px;
+    border-color: #550202;
     padding: 10px 20px;
     font-size: 16px;
     margin-left: 10px;
