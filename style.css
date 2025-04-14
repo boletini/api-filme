@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #770000;
+  }
+  h1 {
+    text-align: center;
+  }
+  #favoritos-section h2 {
+    text-align:left;
+    margin-left: 5px;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    
+  }
+
+ 
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .programa {
+    background-color:#0202023a;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    
+  }
+  .titulo-filme {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .programa:hover {
+    transform: scale(1.02);
+  }
+  img {
+    border-radius: 5%;
+    max-width: 2000vh;
+    display: block;
+    margin-top: 10px;
+  }
+  #favoritos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: pink;
+  }
+  .card-favorito {
+    max-width: 250px;
+  }
+  .detalhes-container {
+    display: flex;
+    gap: 20px;
+    background-color: #600;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    align-items: flex-start;
+  }
+  .detalhes-container img {
+    max-width: 150px;
+  }
+  .info-box {
+    flex-grow: 1;
+  }
+  .resumo-box {
+    margin-top: 20px;
+    background-color: #400;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+  }
